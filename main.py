@@ -1,7 +1,6 @@
 from config import key
 import requests #web
 from mic_input import mic1
-print (key)
 def chat1(chat):
     messages =[] #list contain all the messages
     system_message = "you are an english trainer, provide feedback on any grammar or spelling errors while conversation with user and suggest new vocabulary to user" #first instruction
@@ -18,5 +17,4 @@ def chat1(chat):
 
 # chat = mic1()
 chat = input("Enter the query: ")
-# chat = "who is MS Dhoni" #{'candidates': [{'content': {'parts': [{'text':
 chat1 (chat)
